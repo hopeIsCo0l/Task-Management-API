@@ -1,9 +1,6 @@
 # Task-Management-API
 Task Management API built with Django REST Framework, supporting CRUD operations, user authentication via JWT, and advanced features like task filtering and sorting. Perfect for developers looking to streamline task handling in any project.
-Absolutely! Here’s a professional README structure for your Task Management API that includes all essential sections:
 
-markdown
-Copy code
 # Task Management API
 
 This Task Management API is designed to help developers integrate task tracking functionalities into their applications efficiently. Built with Django REST Framework, it supports complete CRUD operations, user authentication, and advanced filtering and sorting mechanisms.
@@ -28,7 +25,7 @@ This Task Management API is designed to help developers integrate task tracking 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/task-manager-api.git
+   git clone https://github.com/hopeIsCo0l/Task-Management-API.git
 Navigate to the project directory:
 bash
 Copy code
@@ -58,16 +55,13 @@ Delete Task: DELETE /api/tasks/{task_id}/
 Contributing
 Contributions are welcome! Please fork the repository and submit pull requests with your enhancements.
 
-License
-Distributed under the MIT License. See LICENSE for more information.
+# License
 
-Contact
-Your Name - your-email@example.com
+
+
+# Contact
+Abdellah Teshome - abdellah.teshome@aait.edu.et
 
 Acknowledgments
-Django REST Framework Team
-All contributors who helped in setting up and making this project successful.
-css
-Copy code
-
-This README provides a clear overview, setup instructions, usage details, contributin
+    AAiT
+    ALX
