@@ -29,56 +29,50 @@ Ensure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
    ```bash
    git clone https://github.com/hopeIsCo0l/Task-Management-API.git
    cd Task-Management-API
-Setup a virtual environment (recommended):
+### 2. Setup a virtual environment (recommended):
 
-bash
-Copy code
+
 ```python -m venv venv```
 ```source venv/bin/activate  # On Windows use `venv\Scripts\activate```
 Install the required packages:
 
-bash
-Copy code
+
 ```pip install -r requirements.txt```
 Run migrations to create the database schema:
 
-bash
-Copy code
+
 ```python manage.py migrate```
 (Optional) Create a superuser for the Django admin interface:
 
-bash
-Copy code
+
 ```python manage.py createsuperuser```
 Start the development server:
 
-bash
-Copy code
+
 ```python manage.py runserver```
 Access the API at: http://127.0.0.1:8000/api/
 
-Testing
+## Testing
 Run the following command to execute tests:
 
-bash
-Copy code
+
 ```python manage.py test```
 
-Deployment
+## Deployment
 Heroku
 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Versioning
+## Versioning
 
-Authors
+## Authors
 Abdellah Teshome - Initial work - hopeIsCo0l
-License
+## License
 This project is licensed under-
 
-Acknowledgments
+## Acknowledgments
 ALX
