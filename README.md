@@ -38,23 +38,21 @@ Ensure you have the following installed:
 
 ```python -m venv venv```
 ```source venv/bin/activate  # On Windows use `venv\Scripts\activate```
-Install the required packages:
-
-
+### 3. Install the required packages:
 ```pip install -r requirements.txt```
-Run migrations to create the database schema:
+### 4. Run migrations to create the database schema:
 
 
 ```python manage.py migrate```
-(Optional) Create a superuser for the Django admin interface:
+### 5. Create a superuser for the Django admin interface (Optional):
 
 
 ```python manage.py createsuperuser```
-Start the development server:
+### 6. Start the development server:
 
 
 ```python manage.py runserver```
-Access the API at: http://127.0.0.1:8000/api/
+### 7. Access the API at: http://127.0.0.1:8000/api/
 
 ## Testing
 Run the following command to execute tests:
