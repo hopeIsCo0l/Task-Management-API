@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 asgiref==3.8.1
 distlib==0.3.9
 Django==5.1.2
