@@ -30,9 +30,9 @@ Ensure you have the following installed:
 ### Installation
 
 ### 1. Clone the repository:
-   ```bash
-   git clone https://github.com/hopeIsCo0l/Task-Management-API.git
-   cd Task-Management-API
+   
+   ```git clone https://github.com/hopeIsCo0l/Task-Management-API.git```
+ ```cd Task-Management-API```
 ### 2. Setup a virtual environment (recommended):
 
 
