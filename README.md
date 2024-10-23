@@ -1,67 +1,84 @@
-# Task-Management-API
-Task Management API built with Django REST Framework, supporting CRUD operations, user authentication via JWT, and advanced features like task filtering and sorting. Perfect for developers looking to streamline task handling in any project.
-
 # Task Management API
 
-This Task Management API is designed to help developers integrate task tracking functionalities into their applications efficiently. Built with Django REST Framework, it supports complete CRUD operations, user authentication, and advanced filtering and sorting mechanisms.
+This API enables effective task management through robust features that support creating, reading, updating, and deleting tasks, integrated with user authentication and authorization to ensure users only manage tasks they own.
 
 ## Features
 
-- **CRUD Operations:** Create, Read, Update, and Delete tasks.
-- **Authentication:** Secure token-based authentication using JWT (JSON Web Tokens).
-- **Task Filters and Sorting:** Enhanced searchability through filters and sorting by due date, priority, or status.
-- **User Management:** Manage user accounts with unique username, email, and password.
-- **Secure Access:** Users can only access and manage their tasks.
+- **CRUD Operations**: Manage tasks with full create, read, update, and delete capabilities.
+- **User Authentication**: Secure registration and login processes.
+- **Task Filtering and Sorting**: Advanced queries for task management.
+- **Secure Access**: Utilizes JWT for secure API access.
+
+## Technologies Used
+
+- Django 5.1.2
+- Django REST Framework 3.15.1
+- Django Filter 21.1
+- Django REST Framework SimpleJWT 5.3.1
 
 ## Getting Started
 
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
 ### Prerequisites
 
-- Python 3.8+
-- Django 3.1+
-- Django REST Framework
+Ensure you have the following installed:
+- Python 3.12+
+- pip 24.2+
+- virtualenv (recommended)
 
 ### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/hopeIsCo0l/Task-Management-API.git
-Navigate to the project directory:
+   cd Task-Management-API
+Setup a virtual environment (recommended):
+
 bash
 Copy code
-cd task-manager-api
-Install the requirements:
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install the required packages:
+
 bash
 Copy code
 pip install -r requirements.txt
-Run migrations:
+Run migrations to create the database schema:
+
 bash
 Copy code
 python manage.py migrate
-Start the server:
+(Optional) Create a superuser for the Django admin interface:
+
+bash
+Copy code
+python manage.py createsuperuser
+Start the development server:
+
 bash
 Copy code
 python manage.py runserver
-Usage
-After running the server, access the API at http://127.0.0.1:8000/api/.
+Access the API at: http://127.0.0.1:8000/api/
 
-Endpoints
-User Registration: POST /api/users/
-User Login: POST /api/token/
-Create Task: POST /api/tasks/
-List Tasks: GET /api/tasks/
-Update Task: PUT /api/tasks/{task_id}/
-Delete Task: DELETE /api/tasks/{task_id}/
+Testing
+Run the following command to execute tests:
+
+bash
+Copy code
+python manage.py test
+Deployment
+Add additional notes about how to deploy this on a live system.
+
 Contributing
-Contributions are welcome! Please fork the repository and submit pull requests with your enhancements.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-# License
+Versioning
 
-
-
-# Contact
-Abdellah Teshome - abdellah.teshome@aait.edu.et
+Authors
+Abdellah Teshome - Initial work - hopeIsCo0l
+License
+This project is licensed under-
 
 Acknowledgments
-    AAiT
-    ALX
+ALX
