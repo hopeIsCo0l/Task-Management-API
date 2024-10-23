@@ -37,28 +37,28 @@ Setup a virtual environment (recommended):
 
 bash
 Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```python -m venv venv```
+```source venv/bin/activate  # On Windows use `venv\Scripts\activate```
 Install the required packages:
 
 bash
 Copy code
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 Run migrations to create the database schema:
 
 bash
 Copy code
-python manage.py migrate
+```python manage.py migrate```
 (Optional) Create a superuser for the Django admin interface:
 
 bash
 Copy code
-python manage.py createsuperuser
+```python manage.py createsuperuser```
 Start the development server:
 
 bash
 Copy code
-python manage.py runserver
+```python manage.py runserver```
 Access the API at: http://127.0.0.1:8000/api/
 
 Testing
@@ -66,10 +66,10 @@ Run the following command to execute tests:
 
 bash
 Copy code
-python manage.py test
-Deployment
-Add additional notes about how to deploy this on a live system.
+```python manage.py test```
 
+Deployment
+Heroku
 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
